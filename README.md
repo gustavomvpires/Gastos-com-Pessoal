@@ -2,12 +2,17 @@
 Repositório com todas programações e resultados das Projeções para Gastos com Pessoal das Administrações Públicas
 
 O modelo de simulação utilizado nesse texto trabalha com três populações básicas:
+
 A = população de servidores ativos;
 I = população de servidores inativos; e
 P = população de pensionistas, herdeiros de servidores ativos ou inativos já falecidos.
+
 A cada ano t, tem-se, assim, populações AE(t), IE(t) e PE(t) compostas, respectivamente, pelos servidores ativos e inativos e pelos pensionistas do estado E no ano t. Parece natural, assim, denotar os quantitativos de servidores ativos e inativos e pensionistas do estado E no ano t por, respectivamente, n(AE(t)), n(IE(t)) e n(PE(t)).
+
 Em sendo assim, é fácil perceber que os gastos com servidores ativos do estado E no ano t podem ser escritos como:
+
 Equação 1: GSAE(t) = Σ𝑤𝑖∗13,3n(𝐴𝐸(t))𝑖=1
+
 onde i varia de 1 até n(AE(t)) e 𝑤𝑖 é o salário (i.e. a “remuneração média”) mensal de cada servidor ativo i de E em t.
 Analogamente, os gastos com servidores inativos do estado E no ano t podem ser escritos como:
 Equação 2: GSIE(t) = Σ𝑏𝑗∗13n(𝐼𝐸(t)) 𝑗=1
